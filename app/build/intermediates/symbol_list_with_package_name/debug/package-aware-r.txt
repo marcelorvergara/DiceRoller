@@ -659,6 +659,13 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable dice_1
+drawable dice_2
+drawable dice_3
+drawable dice_4
+drawable dice_5
+drawable dice_6
+drawable empty_dice
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
@@ -756,6 +763,7 @@ id customPanel
 id decor_content_parent
 id default_activity_button
 id dialog_button
+id dice_image
 id dimensions
 id direct
 id disableHome
@@ -799,7 +807,6 @@ id percent
 id progress_circular
 id progress_horizontal
 id radio
-id result_text
 id right
 id right_icon
 id right_side

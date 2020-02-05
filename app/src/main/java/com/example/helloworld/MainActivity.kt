@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     lateinit var diceImage : ImageView
+    lateinit var diceImage2 : ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -18,12 +19,17 @@ class MainActivity : AppCompatActivity() {
         val rollButton: Button = findViewById(R.id.roll_button)
         rollButton.setOnClickListener { rollDice() }
         diceImage = findViewById(R.id.dice_image)
-
+        diceImage2 = findViewById(R.id.dice_image2)
     }
 
     private fun rollDice() {
+
+        diceImage.setImageResource(random())
+        diceImage2.setImageResource(random())
+    }
+    private fun random():Int{
         val randomInt = (1..6).random()
-        //val diceImage: ImageView = findViewById(R.id.dice_image)
+
         val drawableResource = when (randomInt) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
@@ -32,8 +38,6 @@ class MainActivity : AppCompatActivity() {
             5 -> R.drawable.dice_5
             else -> R.drawable.dice_6
         }
-        diceImage.setImageResource(drawableResource)
-
+        return drawableResource
     }
-
 }

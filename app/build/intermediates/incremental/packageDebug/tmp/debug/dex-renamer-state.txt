@@ -1,4 +1,4 @@
-#Wed Feb 05 17:43:31 BRST 2020
+#Wed Feb 05 18:08:13 BRST 2020
 base.0=C\:\\Users\\Marcelo\\AndroidStudioProjects\\HelloWorld3\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

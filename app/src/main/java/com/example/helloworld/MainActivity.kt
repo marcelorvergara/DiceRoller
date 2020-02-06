@@ -13,13 +13,23 @@ class MainActivity : AppCompatActivity() {
     lateinit var diceImage : ImageView
     lateinit var diceImage2 : ImageView
 
-    override fun onCreate(savedInstanceState: Bundle?) {super.onCreate(savedInstanceState)
+    override fun onCreate(savedInstanceState: Bundle?)
+    {super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
 
         val rollButton: Button = findViewById(R.id.roll_button)
         rollButton.setOnClickListener { rollDice() }
         diceImage = findViewById(R.id.dice_image)
         diceImage2 = findViewById(R.id.dice_image2)
+
+        val clearButton: Button = findViewById(R.id.clear)
+        clearButton.setOnClickListener{ clear_all(diceImage,diceImage2) }
+    }
+
+    private fun clear_all(diceImage: ImageView,diceImage2: ImageView){
+        diceImage.setImageResource(R.drawable.empty_dice)
+        diceImage2.setImageResource(R.drawable.empty_dice)
     }
 
     private fun rollDice() {

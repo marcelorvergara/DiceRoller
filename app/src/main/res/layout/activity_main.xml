@@ -8,7 +8,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_gravity="center_vertical"
-    android:src="@drawable/empty_dice"
+    app:srcCompat="@drawable/empty_dice"
     tools:src="@drawable/dice_1"
     tools:context=".MainActivity">
 
@@ -17,6 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/die_1"
         app:srcCompat="@drawable/empty_dice"
         tools:src="@drawable/dice_1" />
 
@@ -25,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/die_2"
         app:srcCompat="@drawable/empty_dice"
         tools:src="@drawable/dice_1" />
 
@@ -36,10 +38,10 @@
     android:text="@string/roll_label" />
 
     <Button
-        android:id="@+id/count_up"
+        android:id="@+id/clear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/count_up" />
+        android:text="@string/clear" />
 
 </LinearLayout>

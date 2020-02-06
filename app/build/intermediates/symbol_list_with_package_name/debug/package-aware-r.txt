@@ -754,10 +754,10 @@ id chains
 id checkbox
 id checked
 id chronometer
+id clear
 id collapseActionView
 id content
 id contentPanel
-id count_up
 id custom
 id customPanel
 id decor_content_parent
@@ -950,7 +950,9 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
-string count_up
+string clear
+string die_1
+string die_2
 string roll_label
 string search_menu_title
 string status_bar_notification_info_overflow

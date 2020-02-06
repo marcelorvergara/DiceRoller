@@ -64,6 +64,10 @@
         "source": "C:\\Users\\Marcelo\\AndroidStudioProjects\\HelloWorld3\\app\\src\\main\\res\\drawable\\dice_1.xml"
     },
     {
+        "merged": "C:\\Users\\Marcelo\\AndroidStudioProjects\\HelloWorld3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Marcelo\\AndroidStudioProjects\\HelloWorld3\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
         "merged": "C:\\Users\\Marcelo\\AndroidStudioProjects\\HelloWorld3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dice_6.xml.flat",
         "source": "C:\\Users\\Marcelo\\AndroidStudioProjects\\HelloWorld3\\app\\src\\main\\res\\drawable\\dice_6.xml"
     },

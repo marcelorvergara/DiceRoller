@@ -9,7 +9,7 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-
+//android version 3.5.3
     lateinit var diceImage : ImageView
     lateinit var diceImage2 : ImageView
 
